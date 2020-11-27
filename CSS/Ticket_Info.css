@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+body {
+  color: black;
+  background-image: url("/IMG/bg-body.gif");
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.navigation__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0px 10px 0px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.item {
+  padding: 5px 4%;
+  color: white;
+}
+
+.item a {
+  color: white;
+}
+
+.item3 {
+  padding: 5px 4%;
+  background-image: url("/img/Button.jpg");
+  color: white;
+}
+
+.item3 a {
+  color: white;
+}
+
+.ticket_and_info {
+  max-width: 950px;
+  background-image: url("../IMG/3.png");
+  margin: 0 auto;
+}
+
+.ticket_and_info h1 {
+  color: purple;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.ticket_and_info p {
+  font-size: 16px;
+  margin: 15px 10px;
+}
+
+.secondBlock {
+  margin: 0 auto;
+  max-width: 950px;
+  background-image: url("/IMG/Bg-1.gif");
+}
+
+.Words {
+  font-size: 20px;
+  color: purple;
+  padding: 2% 0 0 0;
+  text-align: center;
+}
+
+.Pictures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.Words__item {
+  text-align: center;
+  padding: 1% 0 0 0;
+}
+
+.item__picture {
+  margin: 0 0 5% 0;
+}
+
+.item__picture :hover {
+  border: 5px solid #F4CA16;
+}
+
+.item__text {
+  padding: 1% 0 0 0;
+  color: black;
+  font-size: 16px;
+}
+
+.Days {
+  color: purple;
+}
+
+.Warning {
+  color: red;
+}
+
+.pad {
+  padding: 0 0 15px 0;
+}
+/*# sourceMappingURL=Ticket_Info.css.map */

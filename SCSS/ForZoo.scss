@@ -1,0 +1,49 @@
+@import "nullstyle.scss";
+$width: 950px;
+$p: 4%;
+body{
+    color: white;
+    background-image: url('/IMG/bg-body.gif');
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    max-width: $width;
+    margin: 0 auto;
+}
+    
+.navigation {
+}
+.navigation__list {
+    display: flex;
+    padding: 20px 0px 10px 0px;
+    justify-content: flex-end;
+}
+.item{
+    color: white;
+    padding: 0px $p;
+}
+img{
+    width: 600px;
+    text-align: center;
+    margin: 0 0 0 25%;
+    border-radius: 10%;
+}
+.text{
+    max-width: $width;
+    margin: 0 auto;
+    background-image: url('../IMG/3.png');
+    color: #000;
+    font-size: 16px;
+    border-radius: 3%;
+    
+    h1{
+        text-align: center;
+        margin: 0 0 20px 0;
+        padding: 10px 0 0 0;
+        font-size: 22px;
+        color: purple;
+    }
+    p{
+        padding: 0 0 30px 10px;      
+    }
+}

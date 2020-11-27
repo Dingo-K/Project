@@ -1,0 +1,90 @@
+@import "nullstyle.scss";
+$width: 950px;
+$p: 4%;
+body{
+    color: black;
+    background-image: url('/IMG/bg-body.gif');
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    max-width: $width;
+    margin: 0 auto;
+}
+    
+.navigation {
+}
+.navigation__list {
+    display: flex;
+    padding: 20px 0px 10px 0px;
+    justify-content: flex-end;
+}
+.item{
+    padding: 5px $p;
+    color: white; 
+    a{
+        color: white;
+    }
+}  
+.item3{
+    padding: 5px $p;
+    background-image: url('/img/Button.jpg'); 
+    color: white; 
+    a{
+        color: white;
+    }
+}
+.ticket_and_info{
+    max-width: $width;
+    background-image: url('../IMG/3.png');
+    margin: 0 auto;
+    h1{
+        color: purple;
+        font-size: 22px;
+        text-align: center;
+        font-weight: 700;
+    }
+    p{
+        font-size: 16px;
+        margin: 15px 10px;
+    }
+}
+.secondBlock {
+    margin: 0 auto;
+    max-width: $width;
+    background-image: url('/IMG/Bg-1.gif');
+   
+}
+.Words {
+    font-size: 20px;
+    color: purple;
+    padding: 2% 0 0 0;
+    text-align: center;
+}
+.Pictures {
+    display: flex;
+    justify-content: space-around;
+}
+.Words__item {
+    text-align: center;
+    padding: 1% 0 0 0;
+}
+.item__picture {
+    margin: 0 0 5% 0;
+}
+.item__picture :hover {
+    border: 5px solid #F4CA16;
+}
+.item__text {
+    padding: 1% 0 0 0;
+    color: black;
+    font-size: 16px;
+}
+.Days{
+    color: purple;
+}
+.Warning{
+    color: red;
+}
+.pad{
+    padding: 0 0 15px 0;    
+}

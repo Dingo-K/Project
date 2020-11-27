@@ -1,0 +1,50 @@
+@import "nullstyle.scss";
+$width: 950px;
+$p: 4%;
+body{
+    color: white;
+    background-image: url('../IMG/bg-body.gif');
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    max-width: $width;
+    margin: 0 auto;
+}
+    
+.navigation {
+}
+.navigation__list {
+    display: flex;
+    padding: 20px 0px 10px 0px;
+    justify-content: flex-end;
+}
+.item{
+    color: white;
+    padding: 0px $p;
+}
+
+
+.Animals {
+    max-width: $width;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    background-image: url('/IMG/68.jpg');
+}
+.Animals_Item {
+    max-width: 30%;
+    margin: 2% 0 0 0;
+}
+.Animals__IMG {
+
+    img{
+        width: 280px;
+        border-radius: 10%;
+    }
+}
+.Animals__text {
+    max-width: 100%;
+    text-align: center;
+    margin: 3% 0 0 0;
+    font-size: 20px;
+}
