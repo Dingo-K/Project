@@ -75,13 +75,64 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------*/
 body {
   color: black;
-  background-image: url("/IMG/bg-body.gif");
+  background-image: url("D:/Course Project/IMG/bg-body.gif");
   font-family: 'Open Sans', sans-serif;
 }
 
-header {
-  max-width: 950px;
-  margin: 0 auto;
+#menu-mobile {
+  /* чекбокс скрыт */
+  display: none;
+}
+
+.main-menu {
+  /* пункты меню скрыты */
+  display: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-menu li {
+  /* пункты меню расположены вертикально */
+  /* каждый имеет ширину 100% */
+  font-size: 16px;
+  font-weight: 700;
+  display: block;
+  width: 100%;
+}
+
+.main-menu a {
+  /* немного стилизуем ссылки */
+  display: block;
+  border-bottom: 1px solid #9457EB;
+  color: white;
+  padding: .5em;
+  text-decoration: none;
+}
+
+.main-menu a:hover {
+  text-decoration: underline;
+}
+
+/*****************************************/
+.toggle-button {
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 20px;
+  background-image: url("D:/Course Project/IMG/bg-body.gif");
+  color: #fff;
+  width: 20%;
+}
+
+#menu-mobile:checked + nav .toggle-button {
+  color: #FFF7B2;
+}
+
+#menu-mobile:checked + nav .main-menu {
+  /* когда чекбокс активен меню становится видимым */
+  display: block;
 }
 
 .navigation__list {
@@ -105,7 +156,7 @@ header {
 
 .item3 {
   padding: 5px 4%;
-  background-image: url("/img/Button.jpg");
+  background-image: url("D:/Course Project/img/Button.jpg");
   color: white;
 }
 
@@ -115,7 +166,7 @@ header {
 
 .ticket_and_info {
   max-width: 950px;
-  background-image: url("../IMG/3.png");
+  background-image: url("D:/Course Project/IMG/3.png");
   margin: 0 auto;
 }
 
@@ -134,7 +185,7 @@ header {
 .secondBlock {
   margin: 0 auto;
   max-width: 950px;
-  background-image: url("/IMG/Bg-1.gif");
+  background-image: url("D:/Course Project/IMG/Bg-1.gif");
 }
 
 .Words {
@@ -150,6 +201,8 @@ header {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .Words__item {
@@ -181,5 +234,121 @@ header {
 
 .pad {
   padding: 0 0 15px 0;
+}
+
+@media screen and (min-width: 640px) {
+  .toggle-button {
+    /* label скрыт */
+    display: none;
+  }
+  .main-menu {
+    display: block;
+    margin: 0 auto;
+    padding: 0 15%;
+    background-image: url("D:/Course Project/IMG/bg-body.gif");
+    height: 60px;
+  }
+  .main-menu li {
+    /* теги <li> расположены в ряд */
+    width: calc(100% / 4);
+    text-align: center;
+    display: inline-block;
+    margin-right: -4px;
+    padding-top: 10px;
+  }
+  .main-menu a {
+    display: inline-block;
+    margin-right: -4px;
+    font-size: 18px;
+    font-weight: 700;
+    background-image: url("D:/Course Project/IMG/bg-body.gif");
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    border-bottom: 0;
+  }
+  .navigation__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 0px 10px 0px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .item {
+    padding: 5px 4%;
+    color: white;
+  }
+  .item a {
+    color: white;
+  }
+  .item3 {
+    padding: 5px 4%;
+    background-image: url("D:/Course Project/img/Button.jpg");
+    color: white;
+  }
+  .item3 a {
+    color: white;
+  }
+  .ticket_and_info {
+    max-width: 950px;
+    background-image: url("D:/Course Project/IMG/3.png");
+    margin: 0 auto;
+  }
+  .ticket_and_info h1 {
+    color: purple;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+  }
+  .ticket_and_info p {
+    font-size: 16px;
+    margin: 15px 10px;
+  }
+  .secondBlock {
+    margin: 0 auto;
+    max-width: 950px;
+    background-image: url("D:/Course Project/IMG/Bg-1.gif");
+  }
+  .Words {
+    font-size: 20px;
+    color: purple;
+    padding: 2% 0 0 0;
+    text-align: center;
+  }
+  .Pictures {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .Words__item {
+    text-align: center;
+    padding: 1% 0 0 0;
+  }
+  .item__picture {
+    margin: 0 0 5% 0;
+  }
+  .item__picture :hover {
+    border: 5px solid #F4CA16;
+  }
+  .item__text {
+    padding: 1% 0 0 0;
+    color: black;
+    font-size: 16px;
+  }
+  .Days {
+    color: purple;
+  }
+  .Warning {
+    color: red;
+  }
+  .pad {
+    padding: 0 0 15px 0;
+  }
 }
 /*# sourceMappingURL=Ticket_Info.css.map */

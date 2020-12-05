@@ -3,15 +3,60 @@ $width: 950px;
 $p: 4%;
 body{
     color: white;
-    background-image: url('/IMG/bg-body.gif');
+    background-image: url('D:/Course Project/IMG/bg-body.gif');
     font-family: 'Open Sans', sans-serif;
 }
-header{
-    max-width: $width;
-    margin: 0 auto;
-}
-    
-.navigation {
+#menu-mobile {
+        /* чекбокс скрыт */
+        display: none;
+        }
+        .main-menu {
+        /* пункты меню скрыты */
+        display: none;
+        padding: 0;
+        margin: 0;
+        }
+        .main-menu li {
+        /* пункты меню расположены вертикально */
+        /* каждый имеет ширину 100% */
+        font-size: 16px;
+        font-weight: 700;
+        display: block;
+        width: 100%;
+        }
+        .main-menu a {
+        /* немного стилизуем ссылки */
+        display: block;
+        border-bottom: 1px solid #9457EB;
+        color: white;;
+        
+        padding: .5em;
+        text-decoration: none;
+        }
+        .main-menu a:hover {
+        text-decoration: underline;
+        }
+        /*****************************************/
+        
+        .toggle-button {
+        text-align: center;
+        display: block;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 10px 20px;
+        background-image: url('D:/Course Project/IMG/bg-body.gif');
+        color: #fff;
+        width: 20%;
+        }
+        #menu-mobile:checked + nav .toggle-button{
+        color: #FFF7B2;
+        }
+        #menu-mobile:checked + nav .main-menu {
+        /* когда чекбокс активен меню становится видимым */
+        display: block;
+        }
+        .navigation {
 }
 .navigation__list {
     display: flex;
@@ -22,16 +67,19 @@ header{
     color: white;
     padding: 0px $p;
 }
-img{
-    width: 600px;
-    text-align: center;
-    margin: 0 0 0 25%;
-    border-radius: 10%;
+.Fimg{
+    width: 100%
+}
+.picture{
+   text-align: center; 
+   width: 70%;
+   margin: 0 15%;
 }
 .text{
     max-width: $width;
+    min-width: 300px;
     margin: 0 auto;
-    background-image: url('../IMG/3.png');
+    background-image: url('D:/Course Project/IMG/3.png');
     color: #000;
     font-size: 16px;
     border-radius: 3%;
@@ -46,4 +94,83 @@ img{
     p{
         padding: 0 0 30px 10px;      
     }
+}
+
+        
+        @media screen and (min-width: 640px) {
+        .toggle-button {
+        /* label скрыт */
+        display: none;
+        }
+        .main-menu {
+        display: block;
+        margin: 0 auto;
+        padding: 0 15%;
+        background-image: url('D:/Course Project/IMG/bg-body.gif');
+        height: 60px;
+        }
+        
+        .main-menu li {
+        /* теги <li> расположены в ряд */
+        width: calc(100% / 4);
+        text-align: center;
+        display: inline-block;
+        margin-right: -4px;
+        padding-top: 10px;
+        }
+        .main-menu a {
+        display: inline-block;
+        margin-right: -4px;
+        font-size: 18px;
+        font-weight: 700;
+        background-image: url('D:/Course Project/IMG/bg-body.gif');
+        text-decoration: none;
+        color: #fff;
+        text-transform: capitalize;
+        border-bottom: 0;
+        }
+    
+.navigation {
+}
+.navigation__list {
+    display: flex;
+    padding: 20px 0px 10px 0px;
+    justify-content: flex-end;
+}
+.item{
+    color: white;
+    padding: 0px $p;
+}
+.Fimg{
+    width: 100%
+}
+.picture{
+   text-align: center; 
+   width: 60%;
+   margin: 0 20%;
+}
+.text{
+    max-width: $width;
+    margin: 0 auto;
+    background-image: url('D:/Course Project/IMG/3.png');
+    color: #000;
+    font-size: 16px;
+    border-radius: 3%;
+    
+    h1{
+        text-align: center;
+        margin: 0 0 20px 0;
+        padding: 10px 0 0 0;
+        font-size: 22px;
+        color: purple;
+    }
+    p{
+        padding: 0 0 30px 10px;     
+        line-height: 20px;
+        text-indent: 20px;
+    }
+    span{
+        
+    }
+}
 }

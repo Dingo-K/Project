@@ -3,13 +3,130 @@ $width: 950px;
 $p: 4%;
 body{
     color: white;
-    background-image: url('../IMG/bg-body.gif');
+    background-image: url('D:/Course Project/IMG/bg-body.gif');
     font-family: 'Open Sans', sans-serif;
 }
-header{
-    max-width: $width;
-    margin: 0 auto;
+#menu-mobile {
+        /* чекбокс скрыт */
+        display: none;
+        }
+        .main-menu {
+        /* пункты меню скрыты */
+        display: none;
+        padding: 0;
+        margin: 0;
+        }
+        .main-menu li {
+        /* пункты меню расположены вертикально */
+        /* каждый имеет ширину 100% */
+        font-size: 16px;
+        font-weight: 700;
+        display: block;
+        width: 100%;
+        }
+        .main-menu a {
+        /* немного стилизуем ссылки */
+        display: block;
+        border-bottom: 1px solid #9457EB;
+        color: white;;
+        
+        padding: .5em;
+        text-decoration: none;
+        }
+        .main-menu a:hover {
+        text-decoration: underline;
+        }
+        /*****************************************/
+        
+        .toggle-button {
+        text-align: center;
+        display: block;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 10px 20px;
+        background-image: url('D:/Course Project/IMG/bg-body.gif');
+        color: #fff;
+        width: 20%;
+        }
+        #menu-mobile:checked + nav .toggle-button{
+        color: #FFF7B2;
+        }
+        #menu-mobile:checked + nav .main-menu {
+        /* когда чекбокс активен меню становится видимым */
+        display: block;
+        }
+        .navigation {
 }
+.navigation__list {
+    display: flex;
+    padding: 20px 0px 10px 0px;
+    justify-content: flex-end;
+}
+.item{
+    color: white;
+    padding: 0px $p;
+}
+
+
+.Animals {
+    max-width: $width;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    background-image: url('D:/Course Project/IMG/68.jpg');
+    flex-wrap: wrap;
+}
+.Animals_Item {
+    max-width: 280px;
+    margin: 2% 0 0 0;
+}
+.Animals__IMG {
+
+    img{
+        width: 280px;
+        border-radius: 10%;
+    }
+}
+.Animals__text {
+    max-width: 100%;
+    text-align: center;
+    margin: 3% 0 0 0;
+    font-size: 20px;
+}
+        
+        @media screen and (min-width: 640px) {
+        .toggle-button {
+        /* label скрыт */
+        display: none;
+        }
+        .main-menu {
+        display: block;
+        margin: 0 auto;
+        padding: 0 15%;
+        background-image: url('D:/Course Project/IMG/bg-body.gif');
+        height: 60px;
+        }
+        
+        .main-menu li {
+        /* теги <li> расположены в ряд */
+        width: calc(100% / 4);
+        text-align: center;
+        display: inline-block;
+        margin-right: -4px;
+        padding-top: 10px;
+        }
+        .main-menu a {
+        display: inline-block;
+        margin-right: -4px;
+        font-size: 18px;
+        font-weight: 700;
+        background-image: url('D:/Course Project/IMG/bg-body.gif');
+        text-decoration: none;
+        color: #fff;
+        text-transform: capitalize;
+        border-bottom: 0;
+        }
     
 .navigation {
 }
@@ -29,10 +146,11 @@ header{
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
-    background-image: url('/IMG/68.jpg');
+    background-image: url('D:/Course Project/IMG/68.jpg');
+    flex-wrap: wrap;
 }
 .Animals_Item {
-    max-width: 30%;
+    width: 280px;
     margin: 2% 0 0 0;
 }
 .Animals__IMG {
@@ -47,4 +165,5 @@ header{
     text-align: center;
     margin: 3% 0 0 0;
     font-size: 20px;
+}
 }
