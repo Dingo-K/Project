@@ -236,6 +236,24 @@ body {
   padding: 0 0 15px 0;
 }
 
+.Foo {
+  width: 100%;
+  background-color: #ffffff;
+  height: 100px;
+}
+
+.Foo a {
+  color: black;
+}
+
+.Foo_us {
+  padding: 10px 0 0 10%;
+}
+
+.Foo_us span {
+  color: grey;
+}
+
 @media screen and (min-width: 640px) {
   .toggle-button {
     /* label скрыт */
@@ -350,5 +368,23 @@ body {
   .pad {
     padding: 0 0 15px 0;
   }
+}
+
+.Foo {
+  width: 100%;
+  background-color: #ffffff;
+  height: 100px;
+}
+
+.Foo a {
+  color: black;
+}
+
+.Foo_us {
+  padding: 10px 0 0 10%;
+}
+
+.Foo_us span {
+  color: grey;
 }
 /*# sourceMappingURL=Ticket_Info.css.map */

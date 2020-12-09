@@ -178,6 +178,25 @@ body {
   text-align: center;
   margin: 3% 0 0 0;
   font-size: 20px;
+  color: white;
+}
+
+.Foo {
+  width: 100%;
+  background-color: #ffffff;
+  height: 90px;
+}
+
+.Foo a {
+  color: black;
+}
+
+.Foo_us {
+  padding: 10px 0 0 10%;
+}
+
+.Foo_us span {
+  color: grey;
 }
 
 @media screen and (min-width: 640px) {
@@ -249,6 +268,25 @@ body {
     text-align: center;
     margin: 3% 0 0 0;
     font-size: 20px;
+    color: white;
   }
+}
+
+.Foo {
+  width: 100%;
+  background-color: #ffffff;
+  height: 90px;
+}
+
+.Foo a {
+  color: black;
+}
+
+.Foo_us {
+  padding: 10px 0 0 10%;
+}
+
+.Foo_us span {
+  color: grey;
 }
 /*# sourceMappingURL=Zoo.css.map */

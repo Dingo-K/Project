@@ -134,6 +134,22 @@ body{
 .pad{
     padding: 0 0 15px 0;    
 }
+.Foo{
+    width: 100%;
+    background-color: #ffffff;
+    height: 100px;
+    a{
+        color: black;
+    }
+}
+
+.Foo_us{
+    padding: 10px 0 0 10%;
+    span{
+        color: grey;
+        
+    }
+}    
         
         @media screen and (min-width: 640px) {
         .toggle-button {
@@ -247,3 +263,20 @@ body{
     padding: 0 0 15px 0;    
 }
 }
+
+    .Foo{
+    width: 100%;
+    background-color: #ffffff;
+    height: 100px;
+    a{
+        color: black;
+    }
+}
+
+.Foo_us{
+    padding: 10px 0 0 10%;
+    span{
+        color: grey;
+        
+    }
+}    

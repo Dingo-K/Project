@@ -327,6 +327,24 @@ body {
   width: 100%;
 }
 
+.Foo {
+  width: 100%;
+  background-color: #ffffff;
+  height: 90px;
+}
+
+.Foo a {
+  color: black;
+}
+
+.Foo_us {
+  padding: 10px 0 0 10%;
+}
+
+.Foo_us span {
+  color: grey;
+}
+
 @media screen and (min-width: 880px) {
   .toggle-button {
     /* label скрыт */
@@ -524,5 +542,23 @@ body {
   .Information__blog img {
     width: 100%;
   }
+}
+
+.Foo {
+  width: 100%;
+  background-color: #ffffff;
+  height: 90px;
+}
+
+.Foo a {
+  color: black;
+}
+
+.Foo_us {
+  padding: 10px 0 0 10%;
+}
+
+.Foo_us span {
+  color: grey;
 }
 /*# sourceMappingURL=main.css.map */
