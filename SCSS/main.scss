@@ -3,7 +3,7 @@ $width: 950px;
 $p: 4%;
 body{
     color: white;
-    background-image: url('D:/Course Project/IMG/bg-body.gif');
+    background-image: url("../IMG/bg-body.gif");
     font-family: 'Open Sans', sans-serif;
 }
 #menu-mobile {
@@ -45,7 +45,7 @@ body{
         font-size: 16px;
         font-weight: 700;
         padding: 10px 20px;
-        background-image: url('D:/Course Project/IMG/bg-body.gif');
+        background-image: url('../IMG/bg-body.gif');
         color: #fff;
         width: 20%;
         }
@@ -71,7 +71,7 @@ body{
 }  
 .item1{
     padding: 5px $p;
-    background-image: url('D:/Course Project/img/Button.jpg'); 
+    background-image: url('../img/Button.jpg'); 
     a{
         color: white;
     }
@@ -113,7 +113,7 @@ body{
 .stick{
    max-width: $width;
    margin: 0 auto;
-   background-image: url('D:/Course Project/IMG/interface.gif');
+   background-image: url('../IMG/interface.gif');
    background-repeat: no-repeat ;
    background-size: 950px;
    min-height: 60px;
@@ -125,7 +125,7 @@ body{
 .secondBlock {
     margin: 0 auto;
     max-width: $width;
-    background-image: url('D:/Course Project/IMG/Bg-1.gif');
+    background-image: url('../IMG/Bg-1.gif');
    
 }
 .Words {
@@ -241,7 +241,7 @@ body{
         display: block;
         margin: 0 auto;
         padding: 0 15%;
-        background-image: url('D:/Course Project/IMG/bg-body.gif');
+        background-image: url('../IMG/bg-body.gif');
         height: 60px;
         }
         
@@ -258,7 +258,7 @@ body{
         margin-right: -4px;
         font-size: 18px;
         font-weight: 700;
-        background-image: url('D:/Course Project/IMG/bg-body.gif');
+        background-image: url('../IMG/bg-body.gif');
         text-decoration: none;
         color: #fff;
         text-transform: capitalize;
@@ -280,7 +280,7 @@ body{
 }  
 .item1{
     padding: 5px $p;
-    background-image: url('D:/Course Project/img/Button.jpg'); 
+    background-image: url('../img/Button.jpg'); 
     a{
         color: white;
     }
@@ -321,7 +321,7 @@ body{
 .stick{
    max-width: $width;
    margin: 0 auto;
-   background-image: url('D:/Course Project/IMG/interface.gif');
+   background-image: url('../IMG/interface.gif');
    background-repeat: no-repeat ;
    background-size: 950px;
    min-height: 60px;
@@ -333,7 +333,7 @@ body{
 .secondBlock {
     margin: 0 auto;
     max-width: $width;
-    background-image: url('D:/Course Project/IMG/Bg-1.gif');
+    background-image: url('../IMG/Bg-1.gif');
    
 }
 .Words {

@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------*/
 body {
   color: white;
-  background-image: url("D:/Course Project/IMG/bg-body.gif");
+  background-image: url("../IMG/bg-body.gif");
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -121,7 +121,7 @@ body {
   font-size: 16px;
   font-weight: 700;
   padding: 10px 20px;
-  background-image: url("D:/Course Project/IMG/bg-body.gif");
+  background-image: url("../IMG/bg-body.gif");
   color: #fff;
   width: 20%;
 }
@@ -164,7 +164,7 @@ body {
   max-width: 950px;
   min-width: 300px;
   margin: 0 auto;
-  background-image: url("D:/Course Project/IMG/3.png");
+  background-image: url("../IMG/3.png");
   color: #000;
   font-size: 16px;
   border-radius: 3%;
@@ -191,7 +191,7 @@ body {
     display: block;
     margin: 0 auto;
     padding: 0 15%;
-    background-image: url("D:/Course Project/IMG/bg-body.gif");
+    background-image: url("../IMG/bg-body.gif");
     height: 60px;
   }
   .main-menu li {
@@ -207,7 +207,7 @@ body {
     margin-right: -4px;
     font-size: 18px;
     font-weight: 700;
-    background-image: url("D:/Course Project/IMG/bg-body.gif");
+    background-image: url("../IMG/bg-body.gif");
     text-decoration: none;
     color: #fff;
     text-transform: capitalize;
@@ -237,7 +237,7 @@ body {
   .text {
     max-width: 950px;
     margin: 0 auto;
-    background-image: url("D:/Course Project/IMG/3.png");
+    background-image: url("../IMG/3.png");
     color: #000;
     font-size: 16px;
     border-radius: 3%;
