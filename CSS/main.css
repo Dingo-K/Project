@@ -329,12 +329,13 @@ body {
 
 .Foo {
   width: 100%;
-  background-color: #ffffff;
+  background-image: url("../IMG/Bg_for_names.jpg");
   height: 90px;
 }
 
 .Foo a {
-  color: black;
+  color: white;
+  font-size: 16px;
 }
 
 .Foo_us {
@@ -546,16 +547,17 @@ body {
 
 .Foo {
   width: 100%;
-  background-color: #ffffff;
+  background-image: url("../IMG/Bg_for_names.jpg");
   height: 90px;
 }
 
 .Foo a {
-  color: black;
+  color: white;
+  font-size: 16px;
 }
 
 .Foo_us {
-  padding: 10px 0 0 10%;
+  padding: 10px 0 0 15%;
 }
 
 .Foo_us span {

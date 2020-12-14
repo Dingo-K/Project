@@ -97,10 +97,11 @@ body{
 }
     .Foo{
     width: 100%;
-    background-color: #ffffff;
+    background-image: url("../IMG/Bg_for_names.jpg");
     height: 90px;
     a{
-        color: black;
+        color: white;
+        font-size: 16px;
     }
 }
 
@@ -187,10 +188,11 @@ body{
 }
 .Foo{
     width: 100%;
-    background-color: #ffffff;
+    background-image: url("../IMG/Bg_for_names.jpg");
     height: 90px;
     a{
-        color: black;
+        color: white;
+        font-size: 16px;
     }
 }
 

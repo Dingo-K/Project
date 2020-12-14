@@ -24,3 +24,10 @@ function showSlides(n){
     }
     slides[slideIndex-1].style.display = "block";
 }
+var xml="<?xml version = '1.0'?>"+
+"<head>Слайдер</head>"
+parser = new DOMParser();
+xmlDoc = parser.parseFromString(xml,"text/xml");
+var names =xmlDoc.getElementsByTagName("head");
+var title = document.getElementsByTagName("title");
+title[0].innerHTML=names[0].innerHTML;
