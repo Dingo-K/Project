@@ -244,7 +244,7 @@ body {
     color: white;
     padding: 0px 4%;
   }
-  .Animals {
+  .Animals {/*Страницы"Зоопарк"*/
     max-width: 950px;
     display: -webkit-box;
     display: -ms-flexbox;

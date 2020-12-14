@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*Обнуление*/
+/* Script Обнуление*/
 * {
   padding: 0;
   margin: 0;
@@ -73,6 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+/*Script меню и тело(Адаптация)*/
 body {
   color: white;
   background-image: url("../IMG/bg-body.gif");
@@ -347,7 +348,7 @@ body {
 }
 
 @media screen and (min-width: 880px) {
-  .toggle-button {
+  .toggle-button { /*CSS Меню и все остальное*/
     /* label скрыт */
     display: none;
   }
@@ -399,7 +400,7 @@ body {
   .item1 a {
     color: white;
   }
-  .heading {
+  .heading {/*CSS лого, кнопка и фото*/
     margin: 0 auto;
     max-width: 950px;
     background-color: #FDF0DF;
@@ -544,7 +545,7 @@ body {
     width: 100%;
   }
 }
-
+/*CSS футер*/
 .Foo {
   width: 100%;
   background-image: url("../IMG/Bg_for_names.jpg");

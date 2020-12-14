@@ -295,7 +295,7 @@ body {
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
-  .item {
+  .item {/*Страница "Информация"*/
     padding: 5px 4%;
     color: white;
   }
